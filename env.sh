@@ -1,0 +1,1 @@
+echo 'export TORCH_CUDA_VERSION="cu117"' >> ~/.bashrc
