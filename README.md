@@ -27,3 +27,5 @@ One tip is to look into your build to ensure the crate actually downloaded the c
 
 Ensure this variable is set: `export TORCH_CUDA_VERSION=cu117`
 cd into `pytorch-mnist` and run `cargo run -- conv`.
+
+![Screenshot 2023-01-16 at 5 57 59 PM](https://user-images.githubusercontent.com/58792/212777548-0d9619e8-ad1b-4cc9-8871-505b0b5b2345.png)
