@@ -13,3 +13,7 @@ Cargo.lock
 
 #ignore the diffusers project (large data)
 diffusers-rs
+
+# Added by cargo
+
+/target
