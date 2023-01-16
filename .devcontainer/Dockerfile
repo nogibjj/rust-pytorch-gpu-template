@@ -17,4 +17,5 @@ RUN distribution=$(. /etc/os-release;echo $ID$VERSION_ID) \
 RUN apt-get update && apt-get -y install --no-install-recommends \
    ffmpeg \ 
    gcc \
-   pciutils 
+   pciutils \
+   nvidia-docker2
