@@ -2,10 +2,6 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/rust-postgres
 {
 	"name": "Rust GPU PyTorch",
-	"build": {
-		"dockerfile": "Dockerfile",
-		"context": ".."
-	},
 	"features": {
 		"ghcr.io/devcontainers/features/nvidia-cuda:1": {
 			"installCudnn": true,

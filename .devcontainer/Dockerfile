@@ -17,6 +17,5 @@ RUN apt-get update && apt-get -y install --no-install-recommends \
    ffmpeg \ 
    gcc \
    pciutils \
-   
    && apt-get autoremove -y && apt-get clean -y \
 
