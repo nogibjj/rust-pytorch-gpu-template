@@ -1,8 +1,11 @@
 ### PyTorch Rust GPU Example
 
-#### Install GPU monitoring
 
-`sudo apt-get install nvidia-utils-525`
+
+#### Verify CUDA
+
+`nvcc --version`
+
 
 
 #### Verify Docker GPU

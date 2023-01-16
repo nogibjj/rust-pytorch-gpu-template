@@ -4,6 +4,10 @@
 	"name": "Rust GPU PyTorch",
 	"features": {
 		"ghcr.io/devcontainers/features/nvidia-cuda:1": {
+			"installCudnn": true,
+			"installNvtx": true,
+			"cudaVersion" : 11.7
+
 		},
 		"ghcr.io/devcontainers/features/rust:1": {},
 		"ghcr.io/eitsupi/devcontainer-features/mdbook:0": {},
