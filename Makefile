@@ -13,6 +13,7 @@ test:
 clean:
 	#cargo install cargo-cache
 	#cargo cache -a
+	#rm -rf Cargo.lock
 	cargo clean
 
 run:
