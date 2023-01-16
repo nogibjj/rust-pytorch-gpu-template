@@ -11,6 +11,8 @@ test:
 	cargo test --quiet
 
 clean:
+	cargo install cargo-cache
+	cargo cache -a
 	cargo clean
 
 run:

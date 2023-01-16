@@ -1,3 +1,7 @@
+#ignore reference repo
+tch-rs
+rust-bert
+
 #libtorch
 libtorch
 
