@@ -7,7 +7,7 @@
 			"installCudnn": true,
 			"cudaVersion" : 11.7,
 			// install cudnnVersion compatible with 11.7
-			"cudnnVersion:  8.7.0,
+			"cudnnVersion":  8.7
 
 		},
 		"ghcr.io/devcontainers/features/rust:1": {},
