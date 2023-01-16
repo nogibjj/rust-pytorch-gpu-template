@@ -18,5 +18,4 @@ RUN apt-get update && apt-get -y install --no-install-recommends \
    ffmpeg \ 
    gcc \
    pciutils \
-   nvidia-container-toolkit \
    nvidia-utils-525
