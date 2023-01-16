@@ -7,8 +7,7 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
    && apt-get autoremove -y && apt-get clean -y
 
 RUN apt-get update && apt-get -y install --no-install-recommends \
-   ffmpeg \
-   python3.8-venv \ 
+   ffmpeg \ 
    gcc \
    pciutils
 
@@ -17,6 +16,6 @@ ARG USER="codespace"
 ARG VENV_PATH="/home/${USER}/venv"
 COPY requirements.txt /tmp/
 COPY Makefile /tmp/
-RUN su $USER -c "/usr/bin/python3 -m venv /home/${USER}/venv" \
+RUN su $USER -c "/usr/bin/python -m venv /home/${USER}/venv" \
    && su $USER -c "${VENV_PATH}/bin/pip --disable-pip-version-check --no-cache-dir install -r /tmp/requirements.txt" \
    && rm -rf /tmp/requirements.txt  
