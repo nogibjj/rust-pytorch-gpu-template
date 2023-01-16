@@ -5,7 +5,6 @@ A repo to show how GPUs work with Rust and PyTorch.
 
 The cd into `pytorch-gpu-util` and run `cargo run -- gpu`
 
-### Debugging Bindings
 
 One tip is to look into your build to ensure the crate actually downloaded the cuda version:
 ```bash
