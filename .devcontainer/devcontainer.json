@@ -17,7 +17,7 @@
 	// "forwardPorts": [5432],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "bash env.sh",
+	"postCreateCommand": "bash setup.sh",
 	"customizations": {
 		"vscode": {
 			"extensions": [
