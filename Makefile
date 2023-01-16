@@ -7,6 +7,9 @@ lint:
 test:
 	cargo test --quiet
 
+clean:
+	cargo clean
+
 run:
 	cargo run 
 
