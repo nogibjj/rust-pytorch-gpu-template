@@ -27,3 +27,12 @@ One tip is to look into your build to ensure the crate actually downloaded the c
 
 Ensure this variable is set: `export TORCH_CUDA_VERSION=cu117`
 cd into `pytorch-mnist` and run `cargo run -- conv`.
+
+#### Stable diffusion demo
+
+* clone this repo:  https://github.com/LaurentMazare/diffusers-rs
+* Follow these setup instructions: https://github.com/LaurentMazare/diffusers-rs#clip-encoding-weights
+
+After all the weights are downloaded run:
+
+`cargo run --example stable-diffusion --features clap -- --prompt "A very rusty robot holding a fire torch to notebooks"`

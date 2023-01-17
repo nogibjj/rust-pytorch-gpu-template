@@ -1,4 +1,5 @@
 #ignore reference repo
+diffusers-rs
 tch-rs
 rust-bert
 
