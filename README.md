@@ -36,3 +36,4 @@ cd into `pytorch-mnist` and run `cargo run -- conv`.
 After all the weights are downloaded run:
 
 `cargo run --example stable-diffusion --features clap -- --prompt "A very rusty robot holding a fire torch to notebooks"`
+![Screenshot 2023-01-16 at 5 57 59 PM](https://user-images.githubusercontent.com/58792/212777548-0d9619e8-ad1b-4cc9-8871-505b0b5b2345.png)
