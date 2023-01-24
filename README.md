@@ -44,5 +44,15 @@ Stable Diffusion 2.1 Pegging GPU
 Rusty Robot Torching Notebooks
 ![sd_final](https://user-images.githubusercontent.com/58792/212926379-d460a54c-29cf-42bb-801a-29e50557369e.png)
 
+#### TBD:  Linking PyTorch into binary
+
+Ideas From Jeremy Wall:
+
+I believe the easiest way is to use the #[link] attribute https://doc.rust-lang.org/reference/items/external-blocks.html#the-link-attribute. But you can also force it with rustc's -l argument https://doc.rust-lang.org/rustc/command-line-arguments.html#-l-link-the-generated-crate-to-a-native-library You can just set the RUSTFLAGS env variable to set that flag for cargo builds
+
+
+
+
+
 
 
