@@ -46,3 +46,22 @@ After all the weights are downloaded run:
 
 `cargo run --example stable-diffusion --features clap -- --prompt "A very rusty robot holding a fire torch to notebooks"`
 ![Screenshot 2023-01-16 at 5 57 59 PM](https://user-images.githubusercontent.com/58792/212777548-0d9619e8-ad1b-4cc9-8871-505b0b5b2345.png)
+
+Stable Diffusion 2.1 Pegging GPU
+![Screenshot 2023-01-17 at 9 30 47 AM](https://user-images.githubusercontent.com/58792/212926307-351db4bc-46ff-4e8d-8630-ce996dca65c9.png)
+
+Rusty Robot Torching Notebooks
+![sd_final](https://user-images.githubusercontent.com/58792/212926379-d460a54c-29cf-42bb-801a-29e50557369e.png)
+
+#### TBD:  Linking PyTorch into binary
+
+Ideas From Jeremy Wall:
+
+I believe the easiest way is to use the #[link] attribute https://doc.rust-lang.org/reference/items/external-blocks.html#the-link-attribute. But you can also force it with rustc's -l argument https://doc.rust-lang.org/rustc/command-line-arguments.html#-l-link-the-generated-crate-to-a-native-library You can just set the RUSTFLAGS env variable to set that flag for cargo builds
+
+
+
+
+
+
+
