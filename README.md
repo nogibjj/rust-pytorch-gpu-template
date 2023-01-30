@@ -4,6 +4,9 @@ Exploration of these EXCELLENT bindings of PyTorch and Rust: https://github.com/
 
 ### Hugging Face GPU Example of Translation
 
+![building-gpu-translator-hugging-face](https://user-images.githubusercontent.com/58792/215615054-8a8d6b4b-2967-4daa-bf78-9554593f0015.png)
+
+
 Goal:  Translate a spanish song to english
 * `cargo new translate` and cd into it
 fully working GPU Hugging Face Translation CLI in Rust
