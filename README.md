@@ -67,6 +67,10 @@ pub fn translate_file(path: String) -> anyhow::Result<()> {
 * To use threaded GPU load test use: `cargo run -- tgpu`
 
 
+![stress-test-cuda-gpu-with-pytorch-rust](https://user-images.githubusercontent.com/58792/215621711-c222e59b-f4e1-4fd0-8202-339b986b4090.png)
+
+
+
 #### Hello World Stress Test
 A repo to show how GPUs work with Rust and PyTorch.
 `export TORCH_CUDA_VERSION=cu117`
