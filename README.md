@@ -2,6 +2,15 @@
 
 Exploration of these EXCELLENT bindings of PyTorch and Rust: https://github.com/LaurentMazare
 
+### Day 1-Live Coding:  Stress Test CLI for both CPU and GPU PyTorch using Clap
+
+* `cargo new stress` cd into `stress`
+* To test CPU for PyTorch do: `cargo run -- cpu`
+* To test GPU for PyTorch do: `cargo run -- gpu`
+* To monitor CPU/Memory run `htop`
+* To monitor GPU run `nvidia-smi -l 1`
+
+
 #### Hello World Stress Test
 A repo to show how GPUs work with Rust and PyTorch.
 `export TORCH_CUDA_VERSION=cu117`
