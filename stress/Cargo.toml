@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 clap = {version="4.0.32", features=["derive"]}
 tch = "0.10.1"
+rayon = "1.5.1"

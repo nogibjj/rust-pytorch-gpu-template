@@ -9,6 +9,7 @@ Exploration of these EXCELLENT bindings of PyTorch and Rust: https://github.com/
 * To test GPU for PyTorch do: `cargo run -- gpu`
 * To monitor CPU/Memory run `htop`
 * To monitor GPU run `nvidia-smi -l 1`
+* To use threaded GPU load test use: `cargo run -- tgpu`
 
 
 #### Hello World Stress Test
